@@ -17,7 +17,7 @@ Create a CLI-based CRUD system in Java for managing student records.
 - Delete a student record by ID
 
 ## 🧩 Tech Stack
-- Java 17+
+- Java 
 - ArrayList for dynamic record management
 - Scanner for input handling
 
