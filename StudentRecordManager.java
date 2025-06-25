@@ -12,7 +12,6 @@ class Student {
         this.marks = marks;
     }
 
-    // Getters and Setters
     public int getId() {
         return id;
     }
@@ -81,7 +80,7 @@ public class StudentRecordManager {
     private static void addStudent() {
         System.out.print("Enter Your ID: ");
         int id = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
         System.out.print("Enter Your Name: ");
         String name = scanner.nextLine();
         System.out.print("Enter Your Marks: ");
